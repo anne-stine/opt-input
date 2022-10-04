@@ -6,7 +6,7 @@ inputs.forEach(input =>
 	{	
 		switch (true)
 		{
-			case /\d/.test(e.key):
+			case /[0-9/.test(e.key):
 				e.preventDefault();
 				input.value = e.key;
 				input.nextElementSibling.focus();
@@ -26,7 +26,7 @@ inputs.forEach(input =>
 				break;
 				
 			default:
-				return false;
+				e.preventDefault();
 		}
 	});
 });
