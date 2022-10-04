@@ -1,0 +1,22 @@
+input
+{
+	height: 3.5rem;
+	border-radius: .5rem;
+}
+
+.opt-field
+{
+	display: flex;
+	gap: .5rem;
+}
+
+.opt-field input
+{
+	width: 2rem;
+	padding: .75rem;
+	text-align: center;
+	background: lightgrey;
+	border: none;
+	font-size: 2rem;
+	font-weight: medium;
+}
